@@ -23,7 +23,7 @@ List rcpp_hello() {
 }
 
 // [[Rcpp::export]]
-float media_joao (NumericVector jp){ // Criando uma função que retorna a media
+float media_joao (NumericVector jp){ 
   float somatorio = 0;
   int n = jp.size();
   for (int i = 0; i < n; i=i+1){
